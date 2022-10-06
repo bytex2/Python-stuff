@@ -12,10 +12,8 @@ def create_window():
      root = Tk()
 
 root = Tk()
-root.minsize(30,30)
+root.minsize(300,300)
 root.title("idk")
-photo = tk.PhotoImage(file = r'C:\Users\vidvu\Downloads\purple-modified.png')
-root.wm_iconphoto(False, photo)
 root.config(bg='#AFB6FF')
 
 
@@ -70,4 +68,3 @@ Button(root,text="play", command=play).pack()
 
 
 root.mainloop()
-
