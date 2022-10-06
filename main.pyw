@@ -1,3 +1,11 @@
+"""
+this is same code as main.py,but you cant accses this with vscode and only python ide.
+I did this so people wouldnt look at the code, if they dont know how to accses pyhton's main ide.
+"""
+
+
+
+
 from logging import root
 import os
 import time
