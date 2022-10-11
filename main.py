@@ -17,8 +17,12 @@ root.title("idk")
 root.config(bg='#AFB6FF')
 
 
+def website():
+   get_url= webbrowser.open('https://pbs.twimg.com/profile_images/1129178189102608384/7gmHwiQW_400x400.png')
 
-def test():
+
+
+def rick():
     time.sleep (2)
     os.startfile("C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
     time.sleep (2)
@@ -59,11 +63,11 @@ def light():
 
  
 Button(root,text="create new window", command=create_window).pack()
-Button(root,text="test", command=test).pack()
+Button(root,text="rick", command=rick).pack()
 Button(root,text="light", command=light).pack()
 Button(root,text="hello",command=hello).pack()
 Button(root,text="play", command=play).pack()
-
+Button(root,text="website", command=website).pack()
 
 
 
